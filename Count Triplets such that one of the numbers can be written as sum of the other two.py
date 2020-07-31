@@ -20,7 +20,6 @@ check()
 
 
 
-
 '''
 output
 enter range of an array = 6
