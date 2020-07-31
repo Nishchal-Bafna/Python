@@ -20,3 +20,22 @@ def check(a,n,sum):                                                             
 	print('not found')                                                                # if sum was not found then print this statement
 
 check(a,n,sum)                                                                            # calling the function
+
+
+
+
+
+'''
+output
+enter range of an array = 9
+enter 1 element  1
+enter 2 element  5
+enter 3 element  3
+enter 4 element  4
+enter 5 element  9
+enter 6 element  2
+enter 7 element  7
+enter 8 element  6
+enter 9 element  5
+( 1+1=2 ) ; ( 1+5=6 ) ; ( 1+3=4 ) ; ( 1+4=5 ) ; ( 1+4=5 ) ; ( 1+2=3 ) ; ( 1+6=7 ) ; ( 1+5=6 ) ; ( 5+4=9 ) ; ( 5+2=7 ) ; ( 3+3=6 ) ; ( 3+4=7 ) ; ( 3+2=5 ) ; ( 3+2=5 ) ; ( 3+6=9 ) ; ( 4+2=6 ) ; ( 4+5=9 ) ; ( 2+2=4 ) ; ( 2+7=9 ) ; ( 2+5=7 ) ; so the count is =  20
+'''
