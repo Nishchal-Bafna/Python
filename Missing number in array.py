@@ -11,36 +11,30 @@ while w!=0:
 		z=list(range(1,n+1))
 		print(z)
 		for i in range(n):
-			if a[i]!=z[i]:
-				print('missing no is ',z[i])
-				return(1)
+			b=z[i]
+			for j in range(n):
+				if a[j]==b:
+					break
+				else:
+					if j==n-1:
+						print('missing no is ',b)
+					
 	missing_no_check()
 	w=w-1
   
   '''
   output
-  how many test case you want to perform2
-enter range of an array5
+how many test case you want to perform1
+enter range of an array7
 0 element 1
-1 element 2
-2 element 3
-3 element 5
-[1, 2, 3, 5, 0]
-[1, 2, 3, 4, 5]
-missing no is  4
-enter range of an array10
-0 element 1
-1 element 2
-2 element 3
+1 element 7
+2 element 5
 3 element 4
-4 element 5
-5 element 6
-6 element 8
-7 element 9
-8 element 10
-[1, 2, 3, 4, 5, 6, 8, 9, 10, 0]
-[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-missing no is  7
+4 element 2
+5 element 3
+[1, 7, 5, 4, 2, 3, 0]
+[1, 2, 3, 4, 5, 6, 7]
+missing no is  6
 
   
   '''
